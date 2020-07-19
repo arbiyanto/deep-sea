@@ -7,3 +7,6 @@ lorem ipsum dolor sit amet
 - `git branchhhh [namabranchbaru]` ini untuk menambahkan branch
 - `git checkout [namabranch]` ini buat pindah branch
 ----
+- `git brannch [namabranchbaru]`
+- `git checkout [namabranch]`
+.....
