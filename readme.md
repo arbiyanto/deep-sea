@@ -4,5 +4,6 @@ lorem ipsum dolor sit amet
 ## ok
 
 ## cara menambahkan branch
-- `git branch [namabranchbaru]`
-- `git checkout [namabranch]`
+- `git branchhhh [namabranchbaru]` ini untuk menambahkan branch
+- `git checkout [namabranch]` ini buat pindah branch
+----
