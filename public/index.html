@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    
+    <!-- include css -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-grid.min.css">
+
+    <!-- include js -->
+    <script src="script.js"></script>
+    <script src="particles.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="sea">
+        <div id="particles-js"></div>
+        <div class="container" style="padding-top: 150px;padding-bottom: 150px;">
+            <!-- per baris 12 kolom, tidak boleh lebih -->
+            <div class="row margin-bottom">
+                <div class="col-sm-6 content">
+                    <div class="item">
+                        At 332 meters, this is the deepest any human has ever scuba dived. Set by Ahmed Gabr in 2014.
+                    </div>
+                </div>
+                <div class="col-sm-6 content">
+                    <div class="item">
+                        <img src="images/diver.png" alt="">
+                        <div class="title">Human</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- per baris 12 kolom, tidak boleh lebih -->
+            <div class="row margin-bottom">
+                <div class="col-sm-6 content">
+                    <div class="item">
+                        <img src="images/european-pilchard.png" alt="">
+                        <div class="title">EUROPEAN PILCHARD</div>
+                    </div>
+                </div>
+                <div class="col-sm-6 content">
+                    <div class="item">
+                        <img src="images/polar-bear.png" alt="">
+                        <div class="title">POLAR BEAR</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- per baris 12 kolom, tidak boleh lebih -->
+            <div class="row margin-bottom">
+                <div class="col-sm-4"></div> <!-- Kolom Kosong berjarak 4 kolom -->
+                <div class="col-sm-5 content">
+                    <div class="item">
+                        <img src="images/striped-bass.png" alt="">
+                        <div class="title">Striped Bass</div>
+                    </div>
+                </div>
+                <div class="col-sm-3 content">
+                    <div class="item">
+                        <img src="images/staghorn-coral.png" alt="">
+                        <div class="title">Staghor Coral</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- per baris, tidak boleh lebih -->
+            <div class="row" >
+                <div class="col-sm-6 content">
+                    <div class="item">
+                        <img src="images/atlantic-salmon.png" alt="">
+                        <div class="title">Atlantic Salmon</div>
+                    </div>
+                </div>
+                <div class="col-sm-4 content">
+                    <div class="item">
+                        <img src="images/manatee.png" alt="">
+                        <div class="title">Manatee</div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="meter">
+            <div class="text"></div>
+        </div>
+        
+    </div>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+
+    <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-analytics.js"></script>
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyCknkHE7RSthR--LCt_1MvhaAc-_ybH5w8",
+            authDomain: "deep-sea-1f724.firebaseapp.com",
+            databaseURL: "https://deep-sea-1f724.firebaseio.com",
+            projectId: "deep-sea-1f724",
+            storageBucket: "deep-sea-1f724.appspot.com",
+            messagingSenderId: "1024670152716",
+            appId: "1:1024670152716:web:d153cd796e211155b99629",
+            measurementId: "G-S66M2B7SB7"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
+</body>
+</html>
